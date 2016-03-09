@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/voleoo/avatar_magick.git
+  revision: e4b528b357627004c44d8215765d375afd31ce97
+  branch: vl-centered-text
+  specs:
+    avatar_magick (1.0.2)
+      dragonfly (~> 1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -38,8 +46,6 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.4.0)
     arel (6.0.3)
-    avatar_magick (1.0.1)
-      dragonfly (~> 1.0)
     builder (3.2.2)
     byebug (8.2.2)
     climate_control (0.0.3)
@@ -162,7 +168,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  avatar_magick (~> 1.0.1)
+  avatar_magick!
   coffee-rails (~> 4.1.0)
   dragonfly (~> 1.0.12)
   jbuilder (~> 2.0)

@@ -24,7 +24,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'dragonfly', '~> 1.0.12'
-gem 'avatar_magick', '~> 1.0.1'
+gem 'avatar_magick', github: 'voleoo/avatar_magick', branch: 'vl-centered-text'
 gem 'paperclip', '~> 4.3.5'
 
 # Use ActiveModel has_secure_password

@@ -3,7 +3,7 @@ require 'dragonfly'
 # Configure
 Dragonfly.app.configure do
   plugin :imagemagick
-  plugin :avatarmagick, font: 'Helvetica'
+  plugin :avatarmagick, font: 'Helvetica', annotate: '+0+27'
 
   secret "caa7f6c5e455ed91bb38584de9369fd5a0e0cef6896e48a5601a121a20d4dca7"
 
